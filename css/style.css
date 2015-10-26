@@ -1,0 +1,10 @@
+#wpadminbar { display:none; z-index: 999999;}
+#mab-btn-show-admin-bar, #mab-btn-hide-admin-bar { font: 400 16px/1 dashicons; }
+#mab-btn-show-admin-bar { text-decoration: none !important; position: fixed; top: -50px; left: 5px; z-index: 1000000; background-color: #333; color: #ccc; padding: 5px; border-radius: 5px; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -ms-transition-duration: 0.5s; transition-duration: 0.5s; }
+#mab-btn-show-admin-bar:before { top:1px; right:4px; content:'\f120'; color:inherit }
+#mab-btn-show-admin-bar:hover { color: #00B9EB; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100);opacity: 1; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -ms-transition-duration: 0.5s; transition-duration: 0.5s;}
+#mab-admin-bar-toggle-li #mab-btn-hide-admin-bar { color: #c00; padding: 7px 5px;vertical-align: middle;margin: 0; }
+#mab-admin-bar-toggle-li #mab-btn-hide-admin-bar:hover { color: #c00; }
+#mab-btn-hide-admin-bar:before { content:'\f343'; }
+.rotate { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -ms-transition-duration: 0.5s; transition-duration: 0.5s; }
+.opaque { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";  filter: alpha(opacity=50); opacity: 0.5; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -ms-transition-duration: 0.5s; transition-duration: 0.5s; }
