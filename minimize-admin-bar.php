@@ -35,4 +35,4 @@ add_action('wp_head', 'mab_remove_padding',1);
 function mab_add_admin_bar_toggle() {
   echo '<a href="javascript:void();" id="mab-btn-show-admin-bar" title="Show WP Admin Bar"></a>';
 }
-add_action('admin_bar_init', 'mab_add_admin_bar_toggle');
+add_action('wp_footer', 'mab_add_admin_bar_toggle');
