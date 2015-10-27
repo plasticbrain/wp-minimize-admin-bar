@@ -7,3 +7,4 @@ WP Minimize Admin Bar is a simple plugin that minimizes the WP Admin Bar (the ba
 
 ### Minimized Admin Bar
 ![Minimized WP Admin Bar](http://mikeeverhart.net/wp-minimize-admin-bar2.png "Minimized WP Admin Bar")
+![Minimized WP Admin Bar in Action](http://mikeeverhart.net/wp-minimize-admin-bar3.gif "Minimized WP Admin Bar in Action")
