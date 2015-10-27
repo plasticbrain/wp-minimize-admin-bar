@@ -27,12 +27,12 @@ add_action('wp_enqueue_scripts', 'mab_toggle_admin_bar_assets');
 function mab_remove_padding() {
   remove_action('wp_head', '_admin_bar_bump_cb');
 }
-add_action('get_header', 'mab_remove_padding');
+add_action('wp_head', 'mab_remove_padding', 1);
 
 //------------------------------------------------------------------------------
 // Add the WP Admin Bar toggle
 //------------------------------------------------------------------------------
 function mab_add_admin_bar_toggle() {
-  echo '<a href="javascript:void();" id="mab-btn-show-admin-bar" title="Show WP Admin Bar"></a>';
+    echo '<a href="javascript:void();" id="mab-btn-show-admin-bar" title="Show WP Admin Bar"></a>';
 }
-add_action('admin_bar_init', 'mab_add_admin_bar_toggle');
+add_action('wp_after_admin_bar_render', 'mab_add_admin_bar_toggle');
