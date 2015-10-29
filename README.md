@@ -1,7 +1,9 @@
-# wp-minimize-admin-bar
+# Minimize the Wordpress Admin Bar
 
 ![Minimized WP Admin Bar in Action](http://mikeeverhart.net/wp-minimize-admin-bar3.gif "Minimized WP Admin Bar in Action")
 WP Minimize Admin Bar is a simple plugin that minimizes the WP Admin Bar (the bar at the top of the page that logged in users see).  Instead of the typical WP Admin Bar that remains fixed at the top of the page, this plugin replaces it with a small, unobtrusive icon in the top left corner of your site. When the icon is clicked it reveals the full WP Admin Bar that you're familiar with.
+
+**Update 2015/10/29** - Plugin now available in the [Wordpress plugin directory](https://wordpress.org/plugins/wp-minimize-admin-bar/)
 
 ### Typical WP Admin Bar
 ![Typical WP Admin Bar](http://mikeeverhart.net/wp-minimize-admin-bar.png "Typical WP Admin Bar")
@@ -10,6 +12,13 @@ WP Minimize Admin Bar is a simple plugin that minimizes the WP Admin Bar (the ba
 ![Minimized WP Admin Bar](http://mikeeverhart.net/wp-minimize-admin-bar2.png "Minimized WP Admin Bar")
 
 ## Download and Install
+
+#### Wordpress Plugin Gallery
+- Go to `Plugins` > `Add New`
+- Search for `minimize admin bar`
+- Find the correct plugin and click `install`
+
+#### Manual Install 
 - [Download a zip file](https://github.com/plasticbrain/wp-minimize-admin-bar/archive/master.zip) of the code
 - Extract files to /wp-content/plugins/wp-minimize-admin-bar
 - Activate the plugin in your WordPress admin control panel
